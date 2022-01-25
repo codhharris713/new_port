@@ -70,21 +70,15 @@ export default function ContactMe(props) {
           <div className="central-form">
             <div className="col">
               <h2 className="title">
-                <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
+                
               </h2>{" "}
-              <a href="https://web.facebook.com/?_rdc=1&_rdr">
-                <i className="fa fa-facebook-square" />
+              <a href="https://www.linkedin.com/in/cody-harris-pdx/">
+                <i className="fa fa-linkedin-square" />
               </a>
-              <a href="#">
-                <i className="fa fa-google-plus-square" />
+              <a href="https://github.com/codhharris713">
+                <i className="fa fa-github" />
               </a>
-              <a href="https://www.instagram.com/instructor_ehizeex/">
-                <i className="fa fa-instagram" />
-              </a>
-              <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-                <i className="fa fa-youtube-square" />
-              </a>
-              <a href="https://twitter.com/Ehiedu_baba">
+             <a href="https://twitter.com/harris_coco">
                 <i className="fa fa-twitter" />
               </a>
             </div>

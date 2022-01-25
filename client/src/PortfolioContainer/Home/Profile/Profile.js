@@ -9,19 +9,13 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-            <a href="https://www.facebook.com/">
-              <i className="fa fa-facebook-square"></i>
+            <a href="https://www.linkedin.com/in/cody-harris-pdx/">
+              <i className="fa fa-linkedin-square"></i>
             </a>
-            <a href="https://www.google.com/">
-              <i className="fa fa-google-plus-square"></i>
+            <a href="https://github.com/codhharris713">
+              <i className="fa fa-github"></i>
             </a>
-            <a href="https://www.instagram.com/?hl=en">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="https://www.youtube.com/">
-              <i className="fa fa-youtube-square"></i>
-            </a>
-            <a href="https://twitter.com/home?lang=en">
+            <a href="https://twitter.com/harris_coco">
               <i className="fa fa-twitter"></i>
             </a>
             </div>
@@ -49,7 +43,7 @@ export default function Profile() {
             <button className="btn primary-btn"
             onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               > Hire Me </button>
-            <a href="newOne.pdf" download="Cody newOne.pdf">
+            <a href="Cody_Harris.pdf" download="Cody Cody_Harris.pdf">
             <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

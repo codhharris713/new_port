@@ -7,9 +7,10 @@ import ScreenHeading from "../../utilites/ScreenHeading/ScreenHeading"
 import ScrollService from "../../utilites/ScrollService";
 import Animations from "../../utilites/Animations";
 import "./Testimonial.css";
-import lady from "../../assets/Testimonial/lady.png"
-import mike from "../../assets/Testimonial/mike.png";
-import man from "../../assets/Testimonial/man.png";
+import phonebook from "../../assets/Testimonial/phonebook.png";
+import checkfiles from "../../assets/Testimonial/checkfiles.png";
+import cardicon from "../../assets/Testimonial/card-icon.png";
+import calculator from "../../assets/Testimonial/calculator.png";
 import shape from "../../assets/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
@@ -46,8 +47,8 @@ export default function Testimonial(props) {
   return (
     <div>
       <ScreenHeading
-        title={"Testimonial"}
-        subHeading={"What My Client Say About Me"}
+        title={"Projects"}
+        subHeading={"Some of my Projects"}
       />
       <section className="testimonial-section fade-in" id={props.id || ""}>
         <div className="container">
@@ -61,34 +62,15 @@ export default function Testimonial(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
+                    This project functions as a phone book for a user. It saves a contact's name,phone number, and email address in a database and allows the user to update and delete previously stored entries.
+                   </p>
+                    
                   </div>
                   <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <a href="https://github.com/codhharris713/Basic-Python-Projects">
+                    <img src={phonebook} alt="no internet connection" /></a>
+                    <h5>Python Phone Book</h5>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -97,34 +79,13 @@ export default function Testimonial(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <i className="fa fa-quote-left" />
-                      It was nice hiring this guy for my e-commerce project.He
-                      delivered even more than i can imagine. I recommend him
-                      for you.
-                      <i className="fa fa-quote-right" />
+                    This project allows the user to choose transfer all .txt files from one chosen directory to another. All files that are moved will be saved in a database.
                     </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
                   </div>
                   <div className="client-info">
-                    <img src={mike} alt="no internet connection"></img>
-                    <h5>Mikel</h5>
-                    <p>CEO MikeTech</p>
+                    <img src={checkfiles} alt="no internet connection"></img>
+                    <h5>Python Check Files GUI</h5>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -132,34 +93,13 @@ export default function Testimonial(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <i className="fa fa-quote-left" />
-                      When he delivered my job, my head spinned, it was so nice
-                      and he implemented every functionality i requested for.
-                      Thank you.
-                      <i className="fa fa-quote-right" />
+                    These are a couple of projects I worked on using C Sharp and the .NetFrame Work. A card game with a dealer, deck, and a way to shuffle cards and a car insurance web app that takes user information and a quote is calculated based on business logic.
                     </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>
+                    </div>
                   <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <img src={cardicon} alt="no internet connection"></img>
+                    <h5>C# Projects</h5>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -167,34 +107,13 @@ export default function Testimonial(props) {
                 <div className="testi-item">
                   <div className="testi-comment">
                     <p>
-                      <i className="fa fa-quote-left" />
-                      This guy is incredibly awesome, I hired him and when He
-                      delivered, I honestly fell in love with the project. He is
-                      indeed a great guy,
-                      <i className="fa fa-quote-right" />
+                    These are some of the projects I made using JavaScript. They include a simple game of tic tac toe with sound effects, a simple calculator, and a pizza menu that you can customize toppings and it will calculate a price.
                     </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
                   </div>
                   <div className="client-info">
-                    <img src={man} alt="no internet connection"></img>
-                    <h5>John Smith</h5>
-                    <p>Bnaker</p>
+                    <img src={calculator} alt="no internet connection"></img>
+                    <h5>JavaScript Projects</h5>
+                    <p></p>
                   </div>
                 </div>
               </div>

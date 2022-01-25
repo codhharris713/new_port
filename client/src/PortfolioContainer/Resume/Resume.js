@@ -54,13 +54,13 @@ export default function Resume (props)  {
 
   //here we have
   const programmingSkillsDetails = [
-    { skill: "JavaScript", ratingPercentage: 85 },
-    { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
-    { skill: "Express JS", ratingPercentage: 89 },
-    { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
+    { skill: "JavaScript", ratingPercentage: 50 },
+    { skill: "React JS", ratingPercentage: 20 },
+    { skill: "Python", ratingPercentage: 40 },
+    { skill: "C#", ratingPercentage: 60 },
+    { skill: "Node JS", ratingPercentage: 20 },
+    { skill: "SQL", ratingPercentage: 30 },
+    { skill: "Boot Strap", ratingPercentage: 50 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
   ];
@@ -68,49 +68,43 @@ export default function Resume (props)  {
   const projectsDetails = [
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      duration: { fromDate: "2021", toDate: "2022" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+      subHeading: "Technologies Used: React JS, Bootstrap",
     },
     {
-      title: "Mobile E-shop ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Entity FrameWork Project ",
+      duration: { fromDate: "2021", toDate: "2022" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
+        "Using Agile/Scrum methodology in a two week sprint with other developers we designed a web application for a theater company.",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Technologies Used:  C#, Bootstrap, CSS, and the MVC Framework",
     },
     {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Python Web App Project ",
+      duration: { fromDate: "2021", toDate: "2022" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "A project developing a web application using Django Framework. It consisted of a bunch of different hobbies which each sub-app tracked a different hobby that we got to choose ourselves. I created a app based on different sushi recipes with users being able to create, edit, delete, and save the recipes to a database.",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used: Python, Bootstrap, and the Django Framework",
     },
   ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"University of Legon Accra, Ghana"}
-        subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
-        fromDate={"2014"}
-        toDate={"2018"}
+        heading={"The Tech Academy, Portland OR."}
+        subHeading={"Completion Certificate of Software Developer Boot Camp Graduate"}
+        fromDate={"2021"}
+        toDate={"2022"}
       />
 
       <ResumeHeading
-        heading={"National Youth Service Corps"}
-        subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
-        fromDate={"2019"}
-        toDate={"2020"}
-      />
-      <ResumeHeading
-        heading={"High School "}
-        subHeading={"Command Secondary School Mbiri"}
-        fromDate={"2007"}
-        toDate={"2012"}
+        heading={"Foster High School "}
+        subHeading={"High School Diploma "}
+        fromDate={"2005"}
+        toDate={"2001"}
       />
     </div>,
 
@@ -118,31 +112,19 @@ export default function Resume (props)  {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Ehizeex Technoloy"}
+          heading={"Prosper IT Consulting"}
           subHeading={"FULL STACK DEVELOPER INTERN"}
           fromDate={"2021"}
-          toDate={"Present"}
+          toDate={"2022"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+          - Worked on a project with other team members to build software designed for a theater company to manage its website content. Made use of C#, CSS, and the ASP.NET MVC framework.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Integrated the web app with backend services to create new user
-            onboarding application with dynamic form content.{" "}
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - I stretch my mental capacity to develope UI as per the given
-            designs.
+          - Assembled a project with other team members on developing a web application using Django Framework and Python. The application I was focused on was based around recipes that the user could create, edit, and post to the page and share with other users.
           </span>
           <br />
         </div>
@@ -185,16 +167,16 @@ export default function Resume (props)  {
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Teaching"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
-      />
-      <ResumeHeading
         heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        description="I have been playing in bands since I was in high school, I have toured all around the country and helped produce many records."
       />
       <ResumeHeading
-        heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        heading="History"
+        description="I am fascinated with history and geography. Any documentary be it cultural history or the history of technology, I treasure being able to dive into learning all there is about it."
+      />
+      <ResumeHeading
+        heading="Cooking"
+        description="I love to prepare all cuisines! I have been learning everything there is to know about making food from all over the world from my different mentors around town and a far."
       />
     </div>,
   ];
