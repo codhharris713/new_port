@@ -15,13 +15,13 @@ router.post("/contact", (req, res) => {
     service: "Gmail",
     port: 456,
     auth: {
-      user: "codyharrispdx@gmail.com",
-      pass: "abc223",
+      user: "codyharrispdx713@gmail.com",
+      pass: "asp!NETMVC",
     },
   });
   let mailOptions = {
     from: data.email,
-    to: "codyharris713@gmail.com",
+    to: "codyharrispdx713@gmail.com",
     subject: `message from ${data.name}`,
     html: `
             
